@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('your-background-image.jpg'); /* Replace with your image file /
+    background-color: black;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -18,7 +18,7 @@ body {
 }
 
 h1, h2 {
-    color: #333;
+    color: #ffffff;
 }
 
 form {
@@ -34,7 +34,7 @@ label {
 
 input {
     padding: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     border-radius: 4px;
 }
 
@@ -54,7 +54,7 @@ button:hover {
 
 p {
     margin-top: 10px;
-    color: #555;
+    color: #fffefe;
 }
 
 a {
@@ -69,7 +69,7 @@ a:hover {
 body {
     margin: 0;
     padding: 0;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_pgoHuvuMGt_8ovZZra-dq4ZuQCHA3XsBRw&usqp=CAU');
+   
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -81,10 +81,10 @@ body {
 
 .container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 20px rgba(198, 47, 47, 0.1);
     backdrop-filter: blur(10px);
 }
 
@@ -98,4 +98,21 @@ body {
         width: 80%;
         padding: 10px;
     }
+}
+/* Apply white color to labels */
+label {
+    color: white;
+}
+
+/* Apply white color to input text */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    color: rgb(0, 0, 0);
+}
+
+/* Apply white color to button text */
+button {
+    color: white;
 }
