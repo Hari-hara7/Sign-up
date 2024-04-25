@@ -6,6 +6,15 @@
 
     <title> AcademicPal</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7HJH0QQKMY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7HJH0QQKMY');
+</script>
 </head>
 <body>
     <div class="container">
@@ -14,6 +23,7 @@
         <!-- Registration Form -->
         <div id="registrationSection">
             <h2>Register</h2>
+            <form action="https://formspree.io/f/mnqelyrq" method="POST">
             <form id="registrationForm">
                 <label for="fullName">Full Name:</label>
                 <input type="text" id="fullName" name="fullName" required>
@@ -32,6 +42,7 @@
 
                 <button type="button" onclick="register()">Register</button>
             </form>
+        </form>
             <p>Already have an account? <a href="#" onclick="toggleForm('loginSection')">Login</a></p>
         </div>
 

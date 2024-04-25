@@ -49,9 +49,7 @@ function validateUSN(usn) {
   return usn.startsWith("NNM");
 }
 
-function validateUniversityEmail(email) {
-  return email.endsWith("@nmamit.in") && email.length >= 20;
-}
+
 
 function validatePhoneNumber(number) {
   return /^\d{10}$/.test(number);
